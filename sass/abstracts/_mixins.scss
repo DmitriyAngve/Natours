@@ -1,0 +1,67 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// MIDEA QUERY MANAGER
+/*
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800px] is where our normal styles apply
+1800px + : Big dekstop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-dekstop
+
+ORDER: Base + typography (heading, heading-primary and etc) > general layout + grid > page layout > component
+
+1em = 16px
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 35.625em) {
+      //  570px
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      //  600px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    //  900px
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    //  1200px
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    //  1800px
+    // dont forget! MIN
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
