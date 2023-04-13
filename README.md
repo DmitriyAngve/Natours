@@ -11,7 +11,7 @@ The website is a fictional travel agency website. The website is built with HTML
 5. Fully response for all popular devices.
 
 
-<div align="center">https://natours-angve.netlify.app/</div>
+<div align="center">https://natours-angve.netlify.app</div>
 
 
 <h3 align="center">Thanks for reading this entire post.<h3>
