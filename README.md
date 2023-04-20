@@ -1,6 +1,6 @@
 # Natours
 
-The website is a fictional travel agency website. The website is built with HTML and Sass, using the BEM methodology for naming conventions and organization. The project uses other advanced CSS and Sass features such as CSS animations, responsive design using media queries, and the CSS Grid and Flexbox layout modules. The website also incorporates some JavaScript for interactive elements, such as a responsive navigation menu, and smooth scrolling to sections of the page.
+The site is a fictional travel agency website. The website is built with HTML and Sass, using the BEM methodology for naming conventions and organization. The project uses other advanced CSS and Sass features such as CSS animations, responsive design using media queries, and the CSS Grid and Flexbox layout modules. The website also incorporates some JavaScript for interactive elements, such as a responsive navigation menu, and smooth scrolling to sections of the page.
 
 <h3 align="center">About App:</h3>
 
@@ -14,4 +14,4 @@ The website is a fictional travel agency website. The website is built with HTML
 <div align="center">https://natours-angve.netlify.app</div>
 
 
-<h3 align="center">Thanks for reading this entire post.<h3>
+<h3 align="center">Thanks for reading this entire post.</h3>
