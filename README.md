@@ -24,11 +24,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository.
 2. Install dependencies using:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 3.Run the development server using:
-   ```bash
-   npm start
-   ```
+```bash
+ npm start
+ ```
 
