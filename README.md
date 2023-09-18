@@ -23,7 +23,10 @@ Natours is a fictional travel agency website. It is built with HTML and Sass, us
 To run this project locally, follow these steps:
 
 1. Clone the repository.
-2. Install dependencies using:
+ ```bash
+git clone https://github.com/DmitriyAngve/Natours
+```
+3. Install dependencies using:
 ```bash
 npm install
 ```
@@ -31,4 +34,3 @@ npm install
 ```bash
  npm start
  ```
-
