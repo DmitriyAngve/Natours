@@ -12,7 +12,7 @@ Natours is a fictional travel agency website. It is built with HTML and Sass, us
 
 ## About the App
 
-- Modern SASS, including flexbox and CSS Grid for layout.
+- Modern SASS, including CSS flexbox and CSS Grid for layout.
 - Utilizes the BEM methodology for fully semantic and maintainable code.
 - Includes animations to enhance user experience.
 - Incorporates a small amount of JavaScript for interactivity.
